@@ -1,0 +1,95 @@
+id: 59
+description: Promotion Data
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 01
+    description: Promotion Type
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 02
+    description: Promotion Code
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 25
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 03
+    description: Promotion Description
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 25
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 04
+    description: Receipt Data
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 100
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 05
+    description: Merchant Indicator
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 06
+    description: Discount Indicator
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 07
+    description: Unit Discount
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 08
+    description: Unit Quantity
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

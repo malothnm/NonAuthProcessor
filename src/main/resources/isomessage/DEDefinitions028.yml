@@ -1,0 +1,40 @@
+id: DE028
+description: Amount, Transaction Fee
+elementType: F
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 0
+maxLength: 9
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: None
+subElementDefs:
+  - id: DE028S001
+    description: prefix
+    subElementType: fixed
+    parentId: DE028
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 0
+    endingOffset: 1
+  - id: DE028S002
+    description: Surcharge Amount
+    subElementType: fixed
+    parentId: DE028
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 8
+    toBeEncrypted: false
+    paddingType: LEFT
+    padValue: 0
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 1
+    endingOffset: 9

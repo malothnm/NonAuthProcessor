@@ -1,0 +1,18 @@
+id: 56
+description: Dial Terminal Authorization Requests
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 01
+    description: Phone Service Codes
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

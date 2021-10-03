@@ -1,0 +1,12 @@
+id: DE102
+description: Account Identification 1.
+elementType: V
+usagePresent: false
+isoTargetType: string
+isoSourceType: ASCII
+lengthOfLength: 1
+maxLength: 28
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: none

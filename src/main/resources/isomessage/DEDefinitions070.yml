@@ -1,0 +1,12 @@
+id: DE070
+description: Network Management Information Code.
+elementType: F
+usagePresent: false
+isoTargetType: int
+isoSourceType: BCD
+lengthOfLength: 0
+maxLength: 2
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: None

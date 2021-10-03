@@ -1,0 +1,52 @@
+id: DE043
+description: Card Acceptor Name/Location
+elementType: F
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 0
+maxLength: 40
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: None
+subElementDefs:
+  - id: DE043S001
+    description: card acceptor name or ATM location
+    subElementType: fixed
+    parentId: DE043
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 25
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 0
+    endingOffset: 25
+  - id: DE043S002
+    description: city name
+    subElementType: fixed
+    parentId: DE043
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 13
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 25
+    endingOffset: 38
+  - id: DE043S003
+    description: country code
+    subElementType: fixed
+    parentId: DE043
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 38
+    endingOffset: 40

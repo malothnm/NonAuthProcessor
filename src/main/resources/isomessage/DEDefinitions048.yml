@@ -1,0 +1,13 @@
+id: DE048
+description: Multiple Usage Data
+elementType: V
+usagePresent: true
+isoTargetType: None
+isoSourceType: None
+lengthOfLength: 1
+maxLength: 255
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: NONE
+padValue: 0

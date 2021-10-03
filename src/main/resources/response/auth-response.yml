@@ -1,0 +1,311 @@
+responseTypes: REV
+responseFields:
+  - dataElement: 2
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 3
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 4
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 6
+    responseFieldLogicType: C
+    responseFieldPresent: C
+  - dataElement: 7
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 10
+    responseFieldLogicType: C
+    responseFieldPresent: C
+  - dataElement: 11
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 19
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 23
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 25
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 32
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 37
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 41
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 42
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 49
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 51
+    responseFieldLogicType: C
+    responseFieldPresent: C
+  - dataElement: 54
+    responseFieldLogicType: C
+    responseFieldPresent: C
+  - dataElement: 55
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 62
+    subElements:
+      - subElement: DE062S002
+        responseFieldLogicType: R
+        responseFieldPresent: O
+      - subElement: DE062S004
+        responseFieldLogicType: R
+        responseFieldPresent: O
+      - subElement: DE062S020
+        responseFieldLogicType: R
+        responseFieldPresent: CP
+      - subElement: DE062S023
+        responseFieldLogicType: R
+        responseFieldPresent: CP
+      - subElement: DE062S024
+        responseFieldLogicType: R
+        responseFieldPresent: CP
+      - subElement: DE062S025
+        responseFieldLogicType: R
+        responseFieldPresent: CP
+  - dataElement: 63
+    subElements:
+      - subElement: DE063S001
+        responseFieldLogicType: R
+        responseFieldPresent: CP
+      - subElement: DE063S002
+        responseFieldLogicType: R
+        responseFieldPresent: CP
+  - dataElement: 102
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 103
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 117
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 121
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 126
+    subElements:
+      - subElement: DE126S012
+        responseFieldLogicType: R
+        responseFieldPresent: CP
+
+
+---
+
+responseTypes: ADV
+responseFields:
+  - dataElement: 2
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 3
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 4
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 7
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 11
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 19
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 23
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 25
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 32
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 37
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 41
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 42
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 49
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 51
+    responseFieldLogicType: C
+    responseFieldPresent: C
+  - dataElement: 54
+    responseFieldLogicType: C
+    responseFieldPresent: C
+  - dataElement: 55
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 62
+    subElements:
+      - subElement: DE062S002
+        responseFieldLogicType: R
+        responseFieldPresent: O
+      - subElement: DE062S025
+        responseFieldLogicType: R
+        responseFieldPresent: O
+  - dataElement: 63
+    subElements:
+      - subElement: DE063S001
+        responseFieldLogicType: R
+        responseFieldPresent: CP
+      - subElement: DE063S002
+        responseFieldLogicType: C
+        responseFieldPresent: C
+  - dataElement: 100
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 102
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 103
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 117
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 121
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 126
+    subElements:
+      - subElement: DE126S012
+        responseFieldLogicType: R
+        responseFieldPresent: CP
+
+
+---
+
+responseTypes: RADV
+responseFields:
+  - dataElement: 2
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 3
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 7
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 11
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 19
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 25
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 32
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 37
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 41
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 42
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 62
+    subElements:
+      - subElement: DE062S001
+        responseFieldLogicType: R
+        responseFieldPresent: O
+  - dataElement: 63
+    subElements:
+      - subElement: DE063S001
+        responseFieldLogicType: R
+        responseFieldPresent: CP
+      - subElement: DE063S002
+        responseFieldLogicType: C
+        responseFieldPresent: C
+  - dataElement: 90
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 102
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 103
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 117
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 118
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 121
+    responseFieldLogicType: R
+    responseFieldPresent: CP
+  - dataElement: 126
+    subElements:
+      - subElement: DE126S012
+        responseFieldLogicType: R
+        responseFieldPresent: CP
+
+
+---
+
+
+responseTypes: NTW
+responseFields:
+  - dataElement: 7
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 11
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 37
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 70
+    responseFieldLogicType: R
+    responseFieldPresent: M
+
+
+---
+
+responseTypes: TKN
+responseFields:
+  - dataElement: 2
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 7
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 11
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 15
+    responseFieldLogicType: C
+    responseFieldPresent: CP
+  - dataElement: 63
+    subElements:
+      - subElement: DE063S001
+        responseFieldLogicType: R
+        responseFieldPresent: CP
+  - dataElement: 70
+    responseFieldLogicType: R
+    responseFieldPresent: M
+  - dataElement: 115
+    responseFieldLogicType: R
+    responseFieldPresent: CP

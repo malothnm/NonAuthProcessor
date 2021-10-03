@@ -1,0 +1,12 @@
+id: DE039
+description: Response Code.
+elementType: F
+usagePresent: false
+isoTargetType: string
+isoSourceType: ASCII
+lengthOfLength: 0
+maxLength: 2
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: None

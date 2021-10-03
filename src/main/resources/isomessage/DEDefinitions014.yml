@@ -1,0 +1,12 @@
+id: DE014
+description: Date, Expiration
+elementType: F
+usagePresent: false
+isoTargetType: String
+isoSourceType: BCD
+lengthOfLength: 0
+maxLength: 2
+dateFormat: yyMM
+toBeEncrypted: false
+subElementType: None
+paddingType: None

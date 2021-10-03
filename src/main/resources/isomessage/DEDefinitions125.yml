@@ -1,0 +1,12 @@
+id: DE125
+description: Supporting Information.
+elementType: V
+usagePresent: false
+isoTargetType: none
+isoSourceType: binary
+lengthOfLength: 1
+maxLength: 256
+dateFormat:
+toBeEncrypted: false
+bitmapLength:
+paddingType: None

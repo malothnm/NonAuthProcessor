@@ -1,0 +1,13 @@
+id: DE045
+description: Track 1 Data .
+elementType: V
+usagePresent: false
+isoTargetType: string
+isoSourceType: ASCII
+lengthOfLength: 1
+maxLength: 77
+dateFormat:
+toBeEncrypted: true
+subElementType: None
+paddingType: NONE
+padValue: 0

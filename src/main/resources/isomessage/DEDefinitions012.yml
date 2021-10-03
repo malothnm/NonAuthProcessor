@@ -1,0 +1,12 @@
+id: DE012
+description: Time, Local Transaction
+elementType: F
+usagePresent: false
+isoTargetType: String
+isoSourceType: BCD
+lengthOfLength: 0
+maxLength: 3
+dateFormat: HHmmss
+toBeEncrypted: false
+subElementType: None
+paddingType: None

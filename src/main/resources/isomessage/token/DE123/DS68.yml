@@ -1,0 +1,260 @@
+id: 68
+description: Token Data
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 1F31
+    description: Elapsed Time To Live
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F32
+    description: Count of Number of Transactions
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 3
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F33
+    description: Cumulative Transaction Amount
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 7
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F35
+    description: Total Number of Tokens for Token Inquiry Criteria
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 01
+    description: Token
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 19
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 02
+    description: Token Assurance Level
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 03
+    description: Token Requestor ID
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 11
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 04
+    description: Primary Account Number, Account Range
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 19
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 05
+    description: Token Reference ID
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 32
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 06
+    description: Token Expiration Date
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 07
+    description: Token Type
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 08
+    description: Token Status
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0A
+    description: Last Updated By
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0B
+    description: PAN Reference ID
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 32
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1A
+    description: Activation Code
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 8
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1B
+    description: Activation Code Expiry Date/Time
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: bcd
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1C
+    description: Activation Code Verification Attempts
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1D
+    description: Number of Activation Codes Issued
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 10
+    description: Visa Token Score
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 11
+    description: Visa Token Decisioning
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 12
+    description: Number of Active Tokens
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 13
+    description: Number of Active Tokens
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 14
+    description: Number of Suspended Tokens
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

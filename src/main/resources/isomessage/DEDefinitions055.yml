@@ -1,0 +1,12 @@
+id: DE055
+description: EMV tag fields.
+elementType: V
+usagePresent: false
+isoTargetType: none
+isoSourceType: binary
+lengthOfLength: 1
+maxLength: 256
+dateFormat:
+toBeEncrypted: true
+bitmapLength:
+paddingType: None

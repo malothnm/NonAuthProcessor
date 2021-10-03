@@ -1,0 +1,13 @@
+id: DE060
+description: Additional POS Information .
+elementType: V
+usagePresent: false
+isoTargetType: string
+isoSourceType: HEX
+lengthOfLength: 1
+maxLength: 6
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: none
+padValue: 0

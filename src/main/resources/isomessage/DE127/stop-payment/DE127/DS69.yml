@@ -1,0 +1,40 @@
+id: 69
+description: Stop Payment Info
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: false
+subElementDefs:
+  - id: DF11
+    description: stop payment code
+    subElementType: tlv
+    parentId: DE127
+    isoElementType: String
+    encodingType: string
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: DF12
+    description: cardholder Name
+    subElementType: tlv
+    parentId: DE127
+    isoElementType: String
+    encodingType: string
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: DF13
+    description: Merchant Account Number
+    subElementType: tlv
+    parentId: DE127
+    isoElementType: string
+    encodingType: ascii
+    maxLength: 27
+    toBeEncrypted: false
+    paddingType: None
+    elementType: V
+    lengthOfLength: 0

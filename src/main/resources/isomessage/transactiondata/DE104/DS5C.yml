@@ -1,0 +1,491 @@
+id: 58
+description: Commercial Card Data (Fuel Transactions)
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 01
+    description: Type of Purchase
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 02
+    description: Service Type
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 03
+    description: Fuel Type
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 04
+    description: Unit of Measure
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 05
+    description: Quantity
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 06
+    description: Unit Cost
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 07
+    description: Gross Fuel Price
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 08
+    description: Net Fuel Price
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 09
+    description: Gross Non-Fuel Price
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0A
+    description: Net Non-Fuel Price
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0B
+    description: Odometer Reading
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 7
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0E
+    description: VAT/Tax Rate
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0F
+    description: Miscellaneous Fuel Tax Exemption Status
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 10
+    description: Miscellaneous Fuel Tax
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 11
+    description: Miscellaneous Non-Fuel Tax Exemption Status
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 12
+    description: Miscellaneous Non-Fuel Tax
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 13
+    description: Local Tax Included
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 14
+    description: Local Tax
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 15
+    description: National Tax Included
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 16
+    description: National Tax
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 17
+    description: Other Tax
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 18
+    description: Merchant VAT Registration/Single Business Reference Number
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 20
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 19
+    description: Customer VAT Registration Number
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 13
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1A
+    description: Customer Reference Number
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 17
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1B
+    description: Message Identifier
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 15
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1C
+    description: Additional Data Indicator
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1E
+    description: Summary Commodity Code
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F01
+    description: Non-Fuel Product Code 1
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F02
+    description: Non-Fuel Product Code 2
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F03
+    description: Non-Fuel Product Code 3
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F04
+    description: Non-Fuel Product Code 4
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F05
+    description: Non-Fuel Product Code 5
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F06
+    description: Non-Fuel Product Code 6
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F07
+    description: Non-Fuel Product Code 7
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F08
+    description: Non-Fuel Product Code 4
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F09
+    description: Fuel Brand
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F0A
+    description: Fuel Transaction Validation Results
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 5
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F0B
+    description: Fuel Acceptance Mode
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F0C
+    description: Driver Identification
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 20
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F0D
+    description: Job Number
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 10
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F0E
+    description: Fleet Number
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 8
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F0F
+    description: Vehicle Registration Number
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 14
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F10
+    description: Product Qualifier
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 1F11
+    description: Expanded Fuel Type
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

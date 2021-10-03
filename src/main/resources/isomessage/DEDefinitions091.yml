@@ -1,0 +1,12 @@
+id: DE091
+description: File Update Code .
+elementType: F
+usagePresent: false
+isoTargetType: string
+isoSourceType: ascii
+lengthOfLength: 0
+maxLength: 1
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: None

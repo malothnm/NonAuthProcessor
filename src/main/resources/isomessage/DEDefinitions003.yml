@@ -1,0 +1,52 @@
+id: DE003
+description: Processing Code.
+elementType: F
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 0
+maxLength: 3
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: None
+subElementDefs:
+  - id: DE003S001
+    description: Transaction Type
+    subElementType: fixed
+    parentId: DE003
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 0
+    endingOffset: 1
+  - id: DE003S002
+    description: Account Type- From
+    subElementType: fixed
+    parentId: DE003
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 1
+    endingOffset: 2
+  - id: DE003S003
+    description: Account Type - nTo
+    subElementType: fixed
+    parentId: DE003
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 2
+    endingOffset: 3

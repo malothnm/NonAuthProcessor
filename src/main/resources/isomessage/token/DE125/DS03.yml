@@ -1,0 +1,18 @@
+id: 03
+description: Additional Original Data Elements
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 03
+    description: Original Transaction Identifier
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: String
+    encodingType: BCD
+    maxLength: 8
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

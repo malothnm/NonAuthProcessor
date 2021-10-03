@@ -1,0 +1,260 @@
+id: 5D
+description: Installment Payment Data
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 01
+    description: Total Installment Amount
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 02
+    description: Installment Payment Currency
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 03
+    description: Number of Installments
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 04
+    description: Amount of Each Installment
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 05
+    description: Installment Payment Number
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 06
+    description: Frequency of Installments
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 07
+    description: Date of First Installment
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: BCD
+    maxLength: 3
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 08
+    description: Total Amount Funded
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 09
+    description: Percent of Amount Requested
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0A
+    description: Total Expenses
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0B
+    description: Percent of Total Expenses
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0C
+    description: Total Fees
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0D
+    description: Percent of Total Fees
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0E
+    description: Total Taxes
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0F
+    description: Percent of Total taxes
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 10
+    description: Total Insurance
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 11
+    description: Percent of Total Insurance
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 12
+    description: Total Other Costs
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 13
+    description: Percent of Total Other Costs
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 14
+    description: Monthly Interest Rates
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 15
+    description: Annual Interest Rate
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 16
+    description: Annual Total Cost of Financing
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 17
+    description: Installment Payment Type
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

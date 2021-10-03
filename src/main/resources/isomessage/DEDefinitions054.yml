@@ -1,0 +1,91 @@
+id: DE054
+description: Additional Amounts .
+elementType: V
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 1
+maxLength: 121
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: None
+subElementDefs:
+  - id: DE054S001
+    description: Balance Info 1
+    subElementType: fixed
+    parentId: DE054
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 20
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 0
+    endingOffset: 20
+  - id: DE054S002
+    description: Balance Info 2
+    subElementType: fixed
+    parentId: DE054
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 20
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 20
+    endingOffset: 40
+  - id: DE054S003
+    description: Balance Info 3
+    subElementType: fixed
+    parentId: DE054
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 20
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 40
+    endingOffset: 60
+  - id: DE054S004
+    description: Balance Info 4
+    subElementType: fixed
+    parentId: DE054
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 20
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 60
+    endingOffset: 80
+  - id: DE054S005
+    description: Balance Info 5
+    subElementType: fixed
+    parentId: DE054
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 20
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 80
+    endingOffset: 100
+  - id: DE054S006
+    description: Balance Info 6
+    subElementType: fixed
+    parentId: DE054
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 20
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 100
+    endingOffset: 120

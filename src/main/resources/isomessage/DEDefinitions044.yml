@@ -1,0 +1,221 @@
+id: DE044
+description: contains miscellaneous response message data.
+elementType: V
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 1
+maxLength: 25
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: None
+subElementDefs:
+  - id: DE044S001
+    description: Response Source-Reason Code
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 0
+    endingOffset: 1
+  - id: DE044S002
+    description: Address Verification Result Code
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 1
+    endingOffset: 2
+  - id: DE044S003
+    description: reserved value
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 2
+    endingOffset: 3
+  - id: DE044S004
+    description: reserved value
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 3
+    endingOffset: 4
+  - id: DE044S005
+    description: CVV-iCVV Result Code
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 4
+    endingOffset: 5
+  - id: DE044S006
+    description: PACM Diversion Level
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 5
+    endingOffset: 7
+  - id: DE044S007
+    description: PACM Diversion Reason Code
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 7
+    endingOffset: 8
+  - id: DE044S008
+    description: Card authentication code result
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 8
+    endingOffset: 9
+  - id: DE044S009
+    description: Reserved
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 9
+    endingOffset: 10
+  - id: DE044S010
+    description: CVV2 Result Code
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 10
+    endingOffset: 11
+  - id: DE044S011
+    description: Original response code
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 11
+    endingOffset: 13
+  - id: DE044S012
+    description: Check Settlment code (US Only)
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 13
+    endingOffset: 14
+  - id: DE044S013
+    description: CAVV result code
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 14
+    endingOffset: 15
+  - id: DE044S014
+    description: Reason Response code
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 15
+    endingOffset: 19
+  - id: DE044S015
+    description: PAN last 4 digits for reciept
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 19
+    endingOffset: 23
+  - id: DE044S016
+    description: CVM Requirement for PIN Less
+    subElementType: fixed
+    parentId: DE044
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 23
+    endingOffset: 24

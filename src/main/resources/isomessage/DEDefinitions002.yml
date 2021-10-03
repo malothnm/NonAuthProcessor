@@ -1,0 +1,13 @@
+id: DE002
+description: PAN .
+elementType: V1
+usagePresent: false
+isoTargetType: string
+isoSourceType: BCD
+lengthOfLength: 1
+maxLength: 11
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: Left
+padValue: 0

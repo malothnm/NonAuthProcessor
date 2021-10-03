@@ -1,0 +1,12 @@
+id: DE010
+description: Conversion Rate, Cardholder Billing.
+elementType: F
+usagePresent: false
+isoTargetType: string
+isoSourceType: BCD
+lengthOfLength: 0
+maxLength: 4
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: None

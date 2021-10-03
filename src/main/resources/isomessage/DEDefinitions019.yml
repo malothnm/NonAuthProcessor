@@ -1,0 +1,12 @@
+id: DE019
+description: Acquiring Institution Country Code
+elementType: F
+usagePresent: false
+isoTargetType: int
+isoSourceType: BCD
+lengthOfLength: 0
+maxLength: 2
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: None

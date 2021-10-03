@@ -1,0 +1,12 @@
+id: DE073
+description: Date Action .
+elementType: F
+usagePresent: false
+isoTargetType: string
+isoSourceType: hex
+lengthOfLength: 0
+maxLength: 3
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: None

@@ -1,0 +1,29 @@
+id: 02
+description: Merchant Payment Transactions
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 83
+    description: Other phone number
+    subElementType: tlv
+    parentId: DE056
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 256
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 86
+    description: Other email address
+    subElementType: tlv
+    parentId: DE056
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 256
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

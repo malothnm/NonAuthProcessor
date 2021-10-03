@@ -1,0 +1,12 @@
+server:
+  port: 8085
+spring:
+  application:
+    name: non-auth-processor
+  instance:
+    name: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+  profiles:
+    - app-dev-1
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181

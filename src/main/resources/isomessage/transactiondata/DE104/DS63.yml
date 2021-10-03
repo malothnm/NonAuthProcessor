@@ -1,0 +1,150 @@
+id: 63
+description: Non-Industry-Specific Data
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 01
+    description: Local Tax Indicator
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 02
+    description: local Tax
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 03
+    description: National Tax Indicator
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 04
+    description: National Tax
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 05
+    description: Merchant VAT Registration/Single Business Reference Number
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 20
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 06
+    description: Customer VAT Registration Number
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 13
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 07
+    description: Summary Commodity Code
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 08
+    description: Other Tax
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 09
+    description: Message Identifier
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 15
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0A
+    description: Time of Purchase
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0B
+    description: Customer Reference Number
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 17
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 13
+    description: Merchant Postal Code
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 11
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 15
+    description: Additional Data Indicator
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

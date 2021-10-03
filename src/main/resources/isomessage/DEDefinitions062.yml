@@ -1,0 +1,182 @@
+id: DE062
+description: Custom Payment Service Fields.
+elementType: V
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 1
+maxLength: 256
+dateFormat:
+toBeEncrypted: false
+subElementType: bitmap
+bitmapLength: 8
+paddingType: None
+subElementDefs:
+  - id: DE062S001
+    description: Authorization Characteristics Indicator
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 1
+  - id: DE062S002
+    description: TransactionIdentifier
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: string
+    encodingType: BCD
+    maxLength: 8
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 2
+  - id: DE062S003
+    description: Validation Code
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 3
+  - id: DE062S004
+    description: Market-Specific Data Identifier
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 4
+  - id: DE062S005
+    description: Duration
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 5
+  - id: DE062S006
+    description: Prestigious Property Indicator
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 6
+  - id: DE062S017
+    description: Gateway Transaction Identifier
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 15
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 17
+  - id: DE062S020
+    description: Merchant Verification Value
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 5
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 20
+  - id: DE062S021
+    description: Online Risk Assesment Score and Reason Codes
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 21
+  - id: DE062S022
+    description: Online Risk Assesment Condition Codes
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 22
+  - id: DE062S023
+    description: Product Id
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 23
+  - id: DE062S024
+    description: Program Identifier
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 24
+  - id: DE062S025
+    description: Spend quality indicator
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 25
+  - id: DE062S026
+    description: Account Status
+    subElementType: fixed
+    parentId: DE062
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 26

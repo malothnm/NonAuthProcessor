@@ -1,0 +1,12 @@
+id: DE115
+description: Additional Trace Data.
+elementType: V
+usagePresent: false
+isoTargetType: string
+isoSourceType: ASCII
+lengthOfLength: 1
+maxLength: 24
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: none

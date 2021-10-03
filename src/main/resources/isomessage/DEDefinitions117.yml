@@ -1,0 +1,12 @@
+id: DE117
+description: National Use.
+elementType: V
+usagePresent: true
+isoTargetType: none
+isoSourceType: binary
+lengthOfLength: 1
+maxLength: 255
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: none

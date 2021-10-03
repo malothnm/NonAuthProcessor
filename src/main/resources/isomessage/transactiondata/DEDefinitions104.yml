@@ -1,0 +1,35 @@
+id: DE104
+description: Usage 2—Transaction-Specific Data.
+elementType: V
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 1
+maxLength: 256
+dateFormat:
+toBeEncrypted: false
+subElementType: data_set
+bitmapLength:
+paddingType: None
+dataSetIdLength: 1
+dataSetLength: 2
+datSetIdEncoding: Hex
+dataSetIds:
+  - 02
+  - 56
+  - 57
+  - 58
+  - 59
+  - 5B
+  - 5C
+  - 5D
+  - 5F
+  - 60
+  - 61
+  - 62
+  - 63
+  - 69
+  - 6C
+  - 6D
+  - 6E
+  - 71

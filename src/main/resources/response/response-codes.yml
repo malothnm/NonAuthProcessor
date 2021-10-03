@@ -1,0 +1,104 @@
+responseCodeMapItems:
+  - serviceResponse: OK
+    responseCode: "00"
+    priority: 999
+  - serviceResponse: NO_ENTRY
+    responseCode: "05"
+    priority: 100
+  - serviceResponse: STATUS
+    responseCode: "05"
+    priority: 100
+  - serviceResponse: BLK
+    responseCode: "05"
+    priority: 30
+  - serviceResponse: TEMP_BLK
+    responseCode: "05"
+    priority: 30
+  - serviceResponse: SUSPECT_FRAUD
+    responseCode: "59"
+    priority: 50
+  - serviceResponse: FRAUD
+    responseCode: "59"
+    priority: 50
+  - serviceResponse: PICK_UP
+    responseCode: "04"
+    priority: 10
+  - serviceResponse: PLASTIC_INVALID
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: PLASTIC_ACT
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: TRANSACTION_TYPE
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: TERMINAL_TYPE
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: PURCHASE_TYPE
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: CASH_BACK
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: INSTALLMENT
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: ACCT_LIMIT
+    responseCode: "51"
+    priority: 40
+  - serviceResponse: NO_PRODUCT
+    responseCode: "05"
+    priority: 40
+  - serviceResponse: CASH_BACK
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: CARD_LIMIT
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: SYSTEM_ERROR
+    responseCode: "96"
+    priority: 01
+  - serviceResponse: EXPIRED_CARD
+    responseCode: "54"
+    priority: 60
+  - serviceResponse: ENTRY_MODE
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: CURRENCY_CONVERSION
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: INVALID_INSTRUMENT
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: MESSAGE_ERROR
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: INVALID_CURRENCY_CODE
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: INVALID_ACCOUNT
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: INVALID_PIN
+    responseCode: "55"
+    priority: 60
+  - serviceResponse: INVALID_CVV
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: INVALID_CVV2
+    responseCode: "N7"
+    priority: 60
+  - serviceResponse: INVALID_ARQC
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: INVALID_DCVV
+    responseCode: "05"
+    priority: 60
+  - serviceResponse: EXCEED_PIN_TRIES
+    responseCode: "75"
+    priority: 60
+
+
+
+

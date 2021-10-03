@@ -1,0 +1,238 @@
+id: 01
+description: test
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 71
+    description: Issuer Script Template 1
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: String
+    encodingType: hex
+    maxLength: 256
+    toBeEncrypted: true
+    paddingType: None
+    elementType: V
+    lengthOfLength: 1
+  - id: 72
+    description: Issuer Script Template 2
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: String
+    encodingType: hex
+    maxLength: 256
+    toBeEncrypted: true
+    paddingType: None
+    elementType: V
+    lengthOfLength: 1
+  - id: 82
+    description: Application Interchange Profile
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: bitset
+    encodingType: binary
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 84
+    description: Dedicated File Name
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 21
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 91
+    description: Issuer Authentication Data
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: string
+    encodingType: hex
+    maxLength: 17
+    toBeEncrypted: false
+    paddingType: None
+    elementType: V
+    lengthOfLength: 1
+  - id: 95
+    description: TVR
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: bitset
+    encodingType: binary
+    maxLength: 5
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 9A
+    description: Transaction Date
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: String
+    encodingType: BCD
+    maxLength: 3
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 9C
+    description: Transaction Type
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: String
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: C0
+    description: Transaction Type
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: String
+    encodingType: HEX
+    maxLength: 8
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 5F2A
+    description: Transaction Currency Code
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: String
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 9F02
+    description: Amount Authorized
+    subElementType: tlv
+    parentId: DE055DE055
+    isoElementType: String
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 9F03
+    description: Amount Other
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: String
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 9F10
+    description: Issuer Application Data
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: String
+    encodingType: Hex
+    maxLength: 33
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 1
+  - id: 9F1A
+    description: Terminal Country Code
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: String
+    encodingType: Hex
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 9F26
+    description: Application Crytogram
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: String
+    encodingType: Hex
+    maxLength: 8
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 9F33
+    description: Terminal Capability Profile
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: bitset
+    encodingType: binary
+    maxLength: 3
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 9F36
+    description: ATC
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: string
+    encodingType: hex
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 9F37
+    description: Unpredictable Number
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: string
+    encodingType: hex
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 9F5B
+    description: Issuer Script Result
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: string
+    encodingType: hex
+    maxLength: 21
+    toBeEncrypted: false
+    paddingType: None
+    elementType: V
+    lengthOfLength: 1
+  - id: 9F6E
+    description: Form Factor Indicator
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: string
+    encodingType: hex
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 9F7C
+    description: Customer Exclusive Data
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: string
+    encodingType: hex
+    maxLength: 33
+    toBeEncrypted: false
+    paddingType: None
+    elementType: V
+    lengthOfLength: 1

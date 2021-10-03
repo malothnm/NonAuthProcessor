@@ -1,0 +1,12 @@
+id: DE052
+description: Personal Identification Number (PIN) Data
+elementType: F
+usagePresent: false
+isoTargetType: string
+isoSourceType: hex
+lengthOfLength: 0
+maxLength: 8
+dateFormat:
+toBeEncrypted: true
+subElementType: None
+paddingType: None

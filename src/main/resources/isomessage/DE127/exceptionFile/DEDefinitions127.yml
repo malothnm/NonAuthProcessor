@@ -1,0 +1,39 @@
+id: DE127
+description: Exception File.
+elementType: F
+usagePresent: true
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 0
+maxLength: 11
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: None
+subElementDefs:
+  - id: DE127S001
+    description: Action Code
+    subElementType: fixed
+    parentId: DE127
+    isoElementType: string
+    encodingType: ascii
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 0
+    endingOffset: 2
+  - id: DE127S002
+    description: RegionEncoding
+    subElementType: fixed
+    parentId: DE127
+    isoElementType: string
+    encodingType: ascii
+    maxLength: 9
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 2
+    endingOffset: 11

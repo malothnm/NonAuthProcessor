@@ -1,0 +1,128 @@
+id: 56
+description: Device Parameters
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 01
+    description: Device IMEI
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 24
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 02
+    description: OS ID
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 24
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 03
+    description: Provisioning attempts on the device
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 04
+    description: Account-to-device bonding age
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 05
+    description: Device country
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 08
+    description: Device serial number
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 24
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 09
+    description: Location source
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0A
+    description: Device time zone
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 5
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0B
+    description: Device time zone setting
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0C
+    description: Device bluetooth media access control (MAC)
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 24
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0D
+    description: OS type
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

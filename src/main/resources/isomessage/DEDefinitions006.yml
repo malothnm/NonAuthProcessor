@@ -1,0 +1,12 @@
+id: DE006
+description: Billing Amount.
+elementType: F
+usagePresent: false
+isoTargetType: long
+isoSourceType: BCD
+lengthOfLength: 0
+maxLength: 6
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: None

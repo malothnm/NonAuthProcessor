@@ -1,0 +1,12 @@
+id: DE127
+description: Usage Field For 302.
+elementType: V
+usagePresent: false
+isoTargetType: none
+isoSourceType: binary
+lengthOfLength: 1
+maxLength: 256
+dateFormat:
+toBeEncrypted: false
+bitmapLength:
+paddingType: None

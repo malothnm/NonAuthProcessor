@@ -1,0 +1,18 @@
+id: 01
+description: Account Data
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 01
+    description: Payment account reference
+    subElementType: tlv
+    parentId: DE056
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 256
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

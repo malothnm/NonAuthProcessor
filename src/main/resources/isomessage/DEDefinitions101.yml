@@ -1,0 +1,12 @@
+id: DE101
+description: File Name.
+elementType: V
+usagePresent: false
+isoTargetType: string
+isoSourceType: ASCII
+lengthOfLength: 1
+maxLength: 17
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: none

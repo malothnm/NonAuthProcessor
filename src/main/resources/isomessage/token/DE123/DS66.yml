@@ -1,0 +1,40 @@
+id: 66
+description: Verification Data
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: C0
+    description: Postal Code
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 9
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: CF
+    description: Street Address
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 40
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: D4
+    description: CardHolderName
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 26
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

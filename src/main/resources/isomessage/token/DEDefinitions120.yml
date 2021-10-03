@@ -1,0 +1,19 @@
+id: DE120
+description: Auxiliary Transaction Data.
+elementType: V
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 1
+maxLength: 256
+dateFormat:
+toBeEncrypted: false
+subElementType: data_set
+bitmapLength:
+paddingType: None
+dataSetIdLength: 1
+dataSetLength: 2
+datSetIdEncoding: Hex
+dataSetIds:
+  - 56
+  - 57

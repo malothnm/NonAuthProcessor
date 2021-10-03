@@ -1,0 +1,12 @@
+id: DE041
+description: Card Acceptor Terminal Identification.
+elementType: F
+usagePresent: false
+isoTargetType: string
+isoSourceType: ASCII
+lengthOfLength: 0
+maxLength: 8
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: None

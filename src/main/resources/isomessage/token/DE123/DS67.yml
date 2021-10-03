@@ -1,0 +1,63 @@
+id: 67
+description: Activation Verification Data
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 03
+    description: Activation Verification Result
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 04
+    description: Active Account Management Velocity Checking Result
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: left
+    padValue: 0
+    elementType: F
+    lengthOfLength: 0
+  - id: 05
+    description: Cardholder Verification Methods Identified by Cardholder Device
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: BCD
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 07
+    description: Issuer Special Condition Code
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 08
+    description: Token Verification Result Code
+    subElementType: tlv
+    parentId: DE123
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

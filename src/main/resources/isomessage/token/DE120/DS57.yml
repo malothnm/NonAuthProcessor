@@ -1,0 +1,139 @@
+id: 57
+description: Wallet Parameters
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 01
+    description: Wallet provider PAN age
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 02
+    description: User account age
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 03
+    description: Wallet account age
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 04
+    description: Days since last activity
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 05
+    description: Number of transactions, last 12 months
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 06
+    description: Days since last account change
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 07
+    description: Suspended cards in account
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 08
+    description: Wallet account country
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 09
+    description: Number of active tokens
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0A
+    description: Number of devices with active tokens
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0B
+    description: Number of active tokens on all devices
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0C
+    description: Consumer entry mode
+    subElementType: tlv
+    parentId: DE120
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

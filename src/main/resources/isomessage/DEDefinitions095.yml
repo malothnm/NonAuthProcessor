@@ -1,0 +1,39 @@
+id: DE095
+description: Replacement Amounts.
+elementType: F
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 0
+maxLength: 42
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: None
+subElementDefs:
+  - id: DE095S001
+    description: Actual Transaction Amount
+    subElementType: fixed
+    parentId: DE095
+    isoElementType: long
+    encodingType: ascii
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 0
+    endingOffset: 12
+  - id: DE095S002
+    description: reserved
+    subElementType: fixed
+    parentId: DE095
+    isoElementType: string
+    encodingType: ascii
+    maxLength: 30
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 12
+    endingOffset: 42

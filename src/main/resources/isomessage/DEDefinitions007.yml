@@ -1,0 +1,12 @@
+id: DE007
+description: Transmission Date and Time.
+elementType: F
+usagePresent: false
+isoTargetType: string
+isoSourceType: BCD
+lengthOfLength: 0
+maxLength: 5
+dateFormat: MMddHHmmss
+toBeEncrypted: false
+subElementType: None
+paddingType: None

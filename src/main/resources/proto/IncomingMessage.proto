@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package in.nmaloth.NonAuthProcessor.model.proto;
+
+message IncomingMessage {
+
+    string messageId = 1;
+    string messageTypeId = 2;
+    optional string containerId = 3;
+    optional string channelId = 4;
+    bytes message = 6;
+
+
+}

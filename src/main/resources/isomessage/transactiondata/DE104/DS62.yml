@@ -1,0 +1,84 @@
+id: 62
+description: Lodging Industry-Specific Data
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 01
+    description: Daily Room Rate
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 02
+    description: Total Tax
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 03
+    description: Prepaid Expenses
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 04
+    description: Food/Bev Charges
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 05
+    description: Folio Cash Advances
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 06
+    description: Room Nights
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 07
+    description:  Total Room Tax
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

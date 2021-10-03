@@ -1,0 +1,95 @@
+id: 61
+description: Car Rental Industry Specific data
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 01
+    description: Days Rented
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 02
+    description: Daily Rental Rate
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 03
+    description: Weekly Rental Rate
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 04
+    description: Insurance Charges
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 05
+    description: Fuel Charges
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 06
+    description: Car Class Code
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 07
+    description:  One-Way Drop-Off Charges
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 08
+    description: Renter Name
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 40
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

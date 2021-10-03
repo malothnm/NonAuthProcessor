@@ -1,0 +1,65 @@
+id: DE090
+description: Original Data Elements.
+elementType: F
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 0
+maxLength: 21
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: None
+subElementDefs:
+  - id: DE090S001
+    description: original message type
+    subElementType: fixed
+    parentId: DE090
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 0
+    endingOffset: 2
+  - id: DE090S002
+    description: Original Trace Number
+    subElementType: fixed
+    parentId: DE090
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 3
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 2
+    endingOffset: 5
+  - id: DE090S003
+    description: Original Transmission Date and Time
+    subElementType: fixed
+    parentId: DE090
+    isoElementType: string
+    encodingType: hex
+    maxLength: 5
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 5
+    endingOffset: 10
+  - id: DE090S004
+    description: Original Acquirer ID and Fowarding Inst id
+    subElementType: fixed
+    parentId: DE090
+    isoElementType: string
+    encodingType: hex
+    maxLength: 11
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 10
+    endingOffset: 21

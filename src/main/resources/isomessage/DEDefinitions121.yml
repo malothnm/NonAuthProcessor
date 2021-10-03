@@ -1,0 +1,12 @@
+id: DE121
+description: Issuing Institution Identification Code.
+elementType: V
+usagePresent: false
+isoTargetType: string
+isoSourceType: ASCII
+lengthOfLength: 1
+maxLength: 12
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: none

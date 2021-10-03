@@ -1,0 +1,170 @@
+id: DE126
+description: Visa Private-Use Fields.
+elementType: V
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 1
+maxLength: 256
+dateFormat:
+toBeEncrypted: false
+subElementType: bitmap
+bitmapLength: 8
+paddingType: None
+subElementDefs:
+  - id: DE126S005
+    description: Visa Merchant Identifier
+    subElementType: fixed
+    parentId: DE126
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 8
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 5
+  - id: DE126S006
+    description: Cardholder Certificate Serial Number
+    subElementType: fixed
+    parentId: D126
+    isoElementType: unknown
+    encodingType: binary
+    maxLength: 17
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 6
+  - id: DE126S007
+    description: Merchant Certificate Serial Number
+    subElementType: fixed
+    parentId: DE126
+    isoElementType: unknown
+    encodingType: binary
+    maxLength: 17
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength:  0
+    bitMapIndicator: 7
+  - id: DE126S008
+    description: Transaction ID (XID)
+    subElementType: fixed
+    parentId: DE126
+    isoElementType: unknown
+    encodingType: binary
+    maxLength: 20
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 8
+  - id: DE126S009
+    description: CAVV data
+    subElementType: fixed
+    parentId: DE126
+    isoElementType: none
+    encodingType: binary
+    maxLength: 20
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 9
+  - id: DE126S010
+    description: CVV2 Authorization Request Data
+    subElementType: fixed
+    parentId: DE126
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 10
+  - id: DE126S012
+    description: Service Indicators
+    subElementType: fixed
+    parentId: DE126
+    isoElementType: string
+    encodingType: hex
+    maxLength: 3
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 12
+  - id: DE126S013
+    description: POS Environment
+    subElementType: fixed
+    parentId: DE126
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 13
+  - id: DE126S015
+    description: MasterCard UCAF Collection Indicator
+    subElementType: fixed
+    parentId: DE126
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 15
+  - id: DE126S016
+    description: MasterCard UCAF Field
+    subElementType: fixed
+    parentId: DE126
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 33
+    toBeEncrypted: false
+    paddingType: None
+    elementType: V
+    lengthOfLength: 1
+    bitMapIndicator: 16
+  - id: DE126S018
+    description: Agent Unique Account Result
+    subElementType: fixed
+    parentId: DE126
+    isoElementType: string
+    encodingType: hex
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 18
+  - id: DE126S019
+    description: Dynamic Currency Conversion Indicator
+    subElementType: fixed
+    parentId: DE126
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 19
+  - id: DE126S020
+    description: 3-D Secure Indicator
+    subElementType: fixed
+    parentId: DE126
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 20

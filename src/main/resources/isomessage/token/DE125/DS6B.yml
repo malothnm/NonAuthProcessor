@@ -1,0 +1,271 @@
+id: 6B
+description: Expanded Fleet Service (CEMEA Region Only)
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 01
+    description: Expanded Non-Fuel Product Code 1
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 02
+    description: Expanded Non-Fuel Product Code 1 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 03
+    description: Expanded Non-Fuel Product Code 1 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 04
+    description: Expanded Non-Fuel Product Code 2
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 05
+    description: Expanded Non-Fuel Product Code 2 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 06
+    description: Expanded Non-Fuel Product Code 2 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 07
+    description: Expanded Non-Fuel Product Code 3
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 08
+    description: Expanded Non-Fuel Product Code 3 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 09
+    description: Expanded Non-Fuel Product Code 3 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0A
+    description: Expanded Non-Fuel Product Code 4
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0B
+    description: Expanded Non-Fuel Product Code 4 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0C
+    description: Expanded Non-Fuel Product Code 4 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0D
+    description: Expanded Non-Fuel Product Code 5
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0E
+    description: Expanded Non-Fuel Product Code 5 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 0F
+    description: Expanded Non-Fuel Product Code 5 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 10
+    description: Expanded Non-Fuel Product Code 6
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 11
+    description: Expanded Non-Fuel Product Code 6 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 12
+    description: Expanded Non-Fuel Product Code 6 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 13
+    description: Expanded Non-Fuel Product Code 7
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 14
+    description: Expanded Non-Fuel Product Code 7 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 15
+    description: Expanded Non-Fuel Product Code 7 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 16
+    description: Expanded Non-Fuel Product Code 8
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 17
+    description: Expanded Non-Fuel Product Code 8 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: int
+    encodingType: ASCII
+    maxLength: 4
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 18
+    description: Expanded Non-Fuel Product Code 8 Quantity
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: long
+    encodingType: ASCII
+    maxLength: 12
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

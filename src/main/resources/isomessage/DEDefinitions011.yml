@@ -1,0 +1,12 @@
+id: DE011
+description: System Audit Trace Number
+elementType: F
+usagePresent: false
+isoTargetType: int
+isoSourceType: BCD
+lengthOfLength: 0
+maxLength: 3
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: None

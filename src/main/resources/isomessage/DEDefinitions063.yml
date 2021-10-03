@@ -1,0 +1,74 @@
+id: DE063
+description: VIP Private Use Fields.
+elementType: V
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 1
+maxLength: 256
+dateFormat:
+toBeEncrypted: false
+subElementType: bitmap
+bitmapLength: 3
+paddingType: None
+subElementDefs:
+  - id: DE063S001
+    description: Network ID
+    subElementType: fixed
+    parentId: DE063
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 1
+  - id: DE063S002
+    description: Time (Preauth Time Limit)
+    subElementType: fixed
+    parentId: DE063
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 2
+  - id: DE063S003
+    description: Message Reason Code
+    subElementType: fixed
+    parentId: DE063
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 3
+  - id: DE063S004
+    description: STIP/Switch Reason Code
+    subElementType: fixed
+    parentId: DE063
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 4
+  - id: DE063S019
+    description: Fee Program Indicator
+    subElementType: fixed
+    parentId: DE063
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 3
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    bitMapIndicator: 19

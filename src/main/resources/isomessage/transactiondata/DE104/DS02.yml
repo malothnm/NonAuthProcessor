@@ -1,0 +1,51 @@
+id: 02
+description: Purchase Line-Item Data
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 05
+    description: Pre-Tax Amount
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 07
+    description: Tax Rate
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 3
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 08
+    description: Discount Amount
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 09
+    description: Prohibited Item Indicator
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

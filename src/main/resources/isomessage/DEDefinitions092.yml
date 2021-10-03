@@ -1,0 +1,12 @@
+id: DE092
+description: File Security Code .
+elementType: F
+usagePresent: false
+isoTargetType: string
+isoSourceType: ascii
+lengthOfLength: 0
+maxLength: 2
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: None

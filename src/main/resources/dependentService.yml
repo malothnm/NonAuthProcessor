@@ -1,0 +1,9 @@
+profile: app-dev-1
+dependentService:
+  - serviceName: visa-connector
+    route: non_auth
+    isServer: false
+    isIn: true
+    isOut: true
+
+

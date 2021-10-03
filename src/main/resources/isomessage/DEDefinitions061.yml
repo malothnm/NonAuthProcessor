@@ -1,0 +1,52 @@
+id: DE061
+description: Other Amounts .
+elementType: V
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 1
+maxLength: 18
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: None
+subElementDefs:
+  - id: DE061S001
+    description: other amount, transaction payment request amount due
+    subElementType: fixed
+    parentId: DE061
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 0
+    endingOffset: 6
+  - id: DE061S002
+    description: other amount, cardholder billing
+    subElementType: fixed
+    parentId: DE061
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 6
+    endingOffset: 12
+  - id: DE061S003
+    description: other amount, replacement billing
+    subElementType: fixed
+    parentId: DE061
+    isoElementType: long
+    encodingType: BCD
+    maxLength: 6
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 12
+    endingOffset: 18

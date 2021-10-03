@@ -1,0 +1,95 @@
+id: 41
+description: Pan Update Data
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: false
+subElementDefs:
+  - id: 01
+    description: Replacement pan
+    subElementType: tlv
+    parentId: DE127
+    isoElementType: String
+    encodingType: hex
+    maxLength: 19
+    toBeEncrypted: false
+    paddingType: None
+    elementType: V
+    lengthOfLength: 0
+  - id: 02
+    description: Replacement Pan Expiry Date
+    subElementType: tlv
+    parentId: DE127
+    isoElementType: String
+    encodingType: hex
+    maxLength: 2
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 04
+    description: Account Status
+    subElementType: tlv
+    parentId: DE127
+    isoElementType: string
+    encodingType: ascii
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 05
+    description: Conversion Code
+    subElementType: tlv
+    parentId: DE127
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 06
+    description: Vau Segment id
+    subElementType: tlv
+    parentId: DE127
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 5
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 07
+    description: Merchant Update Account Request
+    subElementType: tlv
+    parentId: DE127
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 08
+    description: Pan Replacement Status
+    subElementType: tlv
+    parentId: DE127
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+  - id: 09
+    description: Dynamic CVV Pan Enrollment
+    subElementType: tlv
+    parentId: DE055
+    isoElementType: String
+    encodingType: ascii
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

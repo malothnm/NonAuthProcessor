@@ -1,0 +1,13 @@
+id: DE035
+description: Track 2 Data .
+elementType: V
+usagePresent: false
+isoTargetType: string
+isoSourceType: hex
+lengthOfLength: 1
+maxLength: 20
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: LEFT
+padValue: 0

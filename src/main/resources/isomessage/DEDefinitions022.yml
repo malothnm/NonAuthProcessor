@@ -1,0 +1,39 @@
+id: DE022
+description: Point-of-Service Entry Mode Code
+elementType: F
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 0
+maxLength: 2
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: None
+subElementDefs:
+  - id: DE022S001
+    description: PAN and Date Entry Mode
+    subElementType: fixed
+    parentId: DE022
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 0
+    endingOffset: 1
+  - id: DE022S002
+    description: Point-of-Service Entry Mode Code
+    subElementType: fixed
+    parentId: DE022
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 1
+    endingOffset: 2

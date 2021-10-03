@@ -1,0 +1,18 @@
+id: 67
+description: MagnePrint Data
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: D0
+    description: MagnePrint Data
+    subElementType: tlv
+    parentId: DE125
+    isoElementType: String
+    encodingType: ASCII
+    maxLength: 54
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

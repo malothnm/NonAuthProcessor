@@ -1,0 +1,12 @@
+id: DE042
+description: Card Acceptor Identification.
+elementType: F
+usagePresent: false
+isoTargetType: string
+isoSourceType: ASCII
+lengthOfLength: 0
+maxLength: 15
+dateFormat:
+toBeEncrypted: false
+subElementType: None
+paddingType: None

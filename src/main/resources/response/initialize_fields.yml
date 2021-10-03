@@ -1,0 +1,36 @@
+initializeElements:
+  - dataElement: 44
+    maxSubElementNumber: 16
+    subElements:
+      - subElement: DE044S001
+        value: " "
+      - subElement: DE044S002
+        value: " "
+      - subElement: DE044S003
+        value: " "
+      - subElement: DE044S004
+        value: " "
+      - subElement: DE044S005
+        value: " "
+      - subElement: DE044S006
+        value: " "
+      - subElement: DE044S007
+        value: " "
+      - subElement: DE044S008
+        value: " "
+      - subElement: DE044S009
+        value: " "
+      - subElement: DE044S010
+        value: " "
+      - subElement: DE044S011
+        value: " "
+      - subElement: DE044S012
+        value: " "
+      - subElement: DE044S013
+        value: " "
+      - subElement: DE044S014
+        value: "    "
+      - subElement: DE044S0015
+        value: "    "
+      - subElement: DE044S0016
+        value: " "

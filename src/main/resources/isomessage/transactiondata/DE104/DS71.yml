@@ -1,0 +1,18 @@
+id: 71
+description: Free-Form Description
+usagePresent: false
+lengthOfLength: 2
+maxLength: 256
+toBeEncrypted: true
+subElementDefs:
+  - id: 01
+    description: Free-form data
+    subElementType: tlv
+    parentId: DE104
+    isoElementType: string
+    encodingType: ASCII
+    maxLength: 99
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0

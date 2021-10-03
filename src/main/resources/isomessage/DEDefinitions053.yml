@@ -1,0 +1,91 @@
+id: DE053
+description: Security-Related Control Information.
+elementType: F
+usagePresent: false
+isoTargetType: sub_element
+isoSourceType: sub_element
+lengthOfLength: 0
+maxLength: 8
+dateFormat:
+toBeEncrypted: false
+subElementType: fixed
+paddingType: None
+subElementDefs:
+  - id: DE053S001
+    description: Security Format Code
+    subElementType: fixed
+    parentId: DE053
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 0
+    endingOffset: 1
+  - id: DE053S002
+    description: PIN Encryption Algorithm Identifier
+    subElementType: fixed
+    parentId: DE053
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 1
+    endingOffset: 2
+  - id: DE053S003
+    description: PIN Block Format Code
+    subElementType: fixed
+    parentId: DE053
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 2
+    endingOffset: 3
+  - id: DE053S004
+    description: Zone Key Index
+    subElementType: fixed
+    parentId: DE053
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 3
+    endingOffset: 4
+  - id: DE053S005
+    description: PIN Data Type
+    subElementType: fixed
+    parentId: DE053
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 1
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 4
+    endingOffset: 5
+  - id: DE053S006
+    description: Visa Reserved
+    subElementType: fixed
+    parentId: DE053
+    isoElementType: int
+    encodingType: BCD
+    maxLength: 3
+    toBeEncrypted: false
+    paddingType: None
+    elementType: F
+    lengthOfLength: 0
+    startingOffset: 5
+    endingOffset: 8
